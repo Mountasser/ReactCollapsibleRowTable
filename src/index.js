@@ -8,7 +8,7 @@ const triggerSiblingExample = () => (
   </div>
 );
 
-class Todo extends Component {
+class Main extends Component {
   constructor(props) {
     super(props);
   }
@@ -33,4 +33,4 @@ class Todo extends Component {
   }
 }
 
-ReactDOM.render(<Todo />, document.getElementById("root"));
+ReactDOM.render(<Main />, document.getElementById("root"));
